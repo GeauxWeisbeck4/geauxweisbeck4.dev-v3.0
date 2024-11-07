@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
-import { Sidebar } from "../components/Sidebar.tsx";
-import { Header } from "../components/Header.tsx";
-import { Footer } from "../components/Footer.tsx";
+import { Sidebar } from "../components/layout/Sidebar.tsx";
+import { Header } from "../components/layout/Header.tsx";
+import { Footer } from "../components/layout/Footer.tsx";
 import { Hero } from "../islands/Hero.tsx";
 import { FeaturedBlogPosts } from "../islands/FeaturedBlogPosts.tsx";
 import { FeaturedProjects } from "../islands/FeaturedProjects.tsx";
@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Your Name - Home</title>
+        <title>Andrew Weisbeck's Digital Garden | Home Page</title>
       </Head>
       <div className="flex">
         <Sidebar />

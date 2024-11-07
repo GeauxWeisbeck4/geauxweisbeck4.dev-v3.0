@@ -1,7 +1,7 @@
 import { FunctionComponent } from "preact";
 
 export const FeaturedBlogPosts: FunctionComponent = () => (
-  <section id="blog" className="py-20">
+  <section id="blog" className="py-20 px-10">
     <div className="container mx-auto px-4">
       <h2 className="text-3xl font-bold mb-8">Featured Blog Posts</h2>
       <div className="grid grid-cols-3 gap-8">

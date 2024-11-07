@@ -1,7 +1,7 @@
 import { FunctionComponent } from "preact";
 
 export const Newsletter: FunctionComponent = () => (
-  <section id="newsletter" className="bg-gray-800 text-white py-20">
+  <section id="newsletter" className="bg-gray-800 text-white py-20 px-10">
     <div className="container mx-auto px-4">
       <h2 className="text-3xl font-bold mb-8 text-center">Subscribe to My Newsletter</h2>
       <form className="max-w-md mx-auto">

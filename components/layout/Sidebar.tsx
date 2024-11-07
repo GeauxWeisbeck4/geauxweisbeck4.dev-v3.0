@@ -8,7 +8,7 @@ export const Sidebar: FunctionComponent = () => (
         alt="Your Name"
         className="w-32 h-32 rounded-full mx-auto mb-4"
       />
-      <h2 className="text-xl font-bold text-center mb-4">Your Name</h2>
+      <h2 className="text-xl font-bold text-center mb-4">Andrew Weisbeck</h2>
       <nav className="mb-8">
         <ul className="space-y-2">
           {["Home", "About", "Notes", "Projects", "Content", "Resources", "Services", "Contact"].map((item) => (

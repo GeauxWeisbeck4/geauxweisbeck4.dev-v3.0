@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
-import { Sidebar } from "../../components/Sidebar.tsx";
-import { Header } from "../../components/Header.tsx";
-import { Footer } from "../../components/Footer.tsx";
+import { Sidebar } from "../../components/layout/Sidebar.tsx";
+import { Header } from "../../components/layout/Header.tsx";
+import { Footer } from "../../components/layout/Footer.tsx";
 
 
 // This function would typically fetch and parse markdown files from the content/posts directory
